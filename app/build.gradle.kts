@@ -37,6 +37,22 @@ android {
 
 dependencies {
 
+    implementation (libs.retrofit.v260)
+    implementation( libs.converter.gson.v250)
+    implementation (libs.logging.interceptor)
+    implementation (libs.circleimageview)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
+
+
+
+
+
+    implementation(libs.androidx.media3.ui)
+    implementation(libs.androidx.media3.exoplayer)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
