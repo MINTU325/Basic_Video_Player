@@ -1,4 +1,4 @@
-package com.pubscale.basicvideoplayer
+package com.example.basic_video_player
 
 import android.app.PictureInPictureParams
 import android.content.res.Configuration

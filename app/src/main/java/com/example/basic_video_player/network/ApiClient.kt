@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 
 interface ApiClient {
-    @GET("refs/heads/main/video_url.json")  // Relative path
+    @GET("video_url.json")  // Relative path
     fun getVideoUrl(): Call<VideoModel>
 }
